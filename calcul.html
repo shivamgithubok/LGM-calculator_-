@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            margin: 2px;
+            background-color: black ;
+            padding: 10px;
+        }
+        h1{
+            text-align: center;
+            color: white;
+        }
+       .container{
+        background-color: rgb(13, 13, 17);
+        position: relative;
+        top: 20px;
+        max-width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px;
+    border-radius: 29px;
+}
+.btn{
+    margin: 10px;
+    width: 52px;
+    height: 40px;
+    font-size: large;
+    border-radius: 11px;
+}
+.box{
+    text-align: center;
+}
+.inp{
+    text-align: center;
+}
+#ok{
+    height: 38px;
+    width: 278px;
+    /* border: solid #0a1266 12px; */
+    border-radius: 14px;
+    font-size: 28px;
+}
+.one{
+    background-color: red;
+
+}
+.btnn{
+    background-color: yellow;
+}
+    </style>
+</head>
+<body>
+    <h1>welcome to Calculator</h1>
+    <div class="container">
+<div class="box">
+    <input type="text" class="input" id="ok">
+</div>
+ <div class="box">
+<button class="btn one">AC</button>
+<button class="btn btnn">M+</button>
+<button class="btn btnn">(</button>
+<button class="btn btnn">)</button>
+    </div>  
+<div class="box">
+<button class="btn">7</button>
+<button class="btn">8</button>
+<button class="btn">9</button>
+<button class="btn btnn">%</button>
+</div>
+<div class="box">
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn btnn">*</button>
+</div>
+<div class="box">
+ <button class="btn">1</button>
+<button class="btn">2</button>
+ <button class="btn">3</button>
+ <button class="btn btnn">-</button>
+</div>
+<div class="box">
+    <button class="btn">0</button>
+   <button class="btn btnn"><b>.</b></button>
+    <button class="btn btnn">+</button>
+    <button class="btn btnn">=</button>
+</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
